@@ -177,6 +177,50 @@ This allowed Fresh Mart to explore centralised cloud storage, where data from it
 
 ![AWS CLI Data Transfer](Screenshots/image14.png)
 
+## 10. Security Configuration
+
+The EC2 instance and S3 storage required additional security configurations to help protect Fresh Mart's cloud infrastructure and business data.
+
+### S3 Bucket Encryption (SSE-KMS)
+
+The following screenshots demonstrate the configuration of Server-Side Encryption using AWS Key Management Service (SSE-KMS) for the S3 bucket.
+
+This encryption method helps protect stored data by using encryption keys managed through AWS KMS. It also provides additional control over key access and management.
+
+**Image 15 – Configuring S3 Bucket Encryption**
+
+![S3 Bucket Encryption](Screenshots/image15.png)
+
+**Image 16 – SSE-KMS Encryption Configuration**
+
+![SSE-KMS Configuration](Screenshots/image16.png)
+
+### AWS CloudTrail Logging
+
+CloudTrail was included to record AWS account activity and API events. These logs help administrators review activity within their cloud environment and investigate potentially suspicious actions.
+
+**Image 17 – AWS CloudTrail Configuration**
+
+![AWS CloudTrail Configuration](Screenshots/image17.png)
+
+**Image 18 – CloudTrail Logging**
+
+![CloudTrail Logging](Screenshots/image18.png)
+
+### AWS CloudWatch Monitoring and Alarms
+
+CloudWatch was explored as a monitoring service for observing cloud resource performance and configuring alarms.
+
+For Fresh Mart, this could help identify unusual resource usage or performance issues and notify administrators when configured thresholds are reached.
+
+**Image 19 – AWS CloudWatch Monitoring**
+
+![AWS CloudWatch Monitoring](Screenshots/image19.png)
+
+**Image 20 – CloudWatch Alarm Configuration**
+
+![CloudWatch Alarm Configuration](Screenshots/image20.png)
+
 
 
 
