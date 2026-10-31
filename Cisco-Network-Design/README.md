@@ -169,8 +169,7 @@ Connectivity was assessed using commands such as `ping` to check communication b
 
 ![IP Addressing and WAN Subnetting](Screenshots/image19.png)
 
-**Image 20 – Final Network Topology**
 
-![Final Network Topology](Screenshots/image20.png)
+
 
 
