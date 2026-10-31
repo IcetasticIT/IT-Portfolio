@@ -91,3 +91,93 @@ The following screenshots provide visual evidence of the AWS activities undertak
 They demonstrate the use of Amazon Web Services (AWS), including EC2 deployment, IAM configuration, cloud storage, security and monitoring.
 
 Each screenshot is accompanied by a description explaining the activity and the AWS services involved.
+
+### EC2 Cloud Instance Deployment
+
+The following screenshots demonstrate the initial development of an Amazon EC2 cloud instance through the AWS Management Console.
+
+The instance was launched to act as the main server for the fictional company, Fresh Mart. The initial configuration included an 8 GB storage volume as part of the proposed cloud infrastructure.
+
+**Image 4 – EC2 Instance Configuration**
+
+![EC2 Instance Configuration](Screenshots/image4.png)
+
+**Image 5 – EC2 Instance Deployment**
+
+![EC2 Instance Deployment](Screenshots/image5.png)
+
+### Amazon S3 Bucket Creation
+
+This screenshot demonstrates the creation of an Amazon S3 bucket for the fictional company, Fresh Mart. The bucket was intended to provide cloud storage for the project's data.
+
+**Image 6 – Amazon S3 Bucket Creation**
+
+![Amazon S3 Bucket Creation](Screenshots/image6.png)
+
+
+### Connecting to the EC2 Instance
+
+The following screenshots demonstrate the process of connecting to the EC2 instance through the AWS Management Console using the Connect button.
+
+This enabled remote access to the instance, allowing Fresh Mart to manage its settings, install and run programs, and access performance and analytics information.
+
+**Image 7 – Initiating the EC2 Instance Connection**
+
+![EC2 Instance Connection](Screenshots/image7.png)
+
+**Image 8 – Connecting to the EC2 Instance**
+
+![EC2 Remote Access](Screenshots/image8.png)
+
+### Installing and Configuring AWS CLI
+
+This screenshot demonstrates the use of the EC2 instance's terminal to install AWS Command Line Interface (AWS CLI).
+
+AWS CLI allows users to manage and interact with AWS services through command-line instructions. The project used it to explore cloud administration, automation and data management.
+
+**Image 9 – Installing AWS CLI on the EC2 Instance**
+
+![AWS CLI Installation](Screenshots/image9.png)
+
+### Identity and Access Management (IAM) Configuration
+
+The following screenshots demonstrate the setup and configuration of AWS Identity and Access Management (IAM).
+
+IAM helps manage access to AWS resources by controlling permissions and determining what users and services can access. This was included in the project to improve access control and protect Fresh Mart's cloud resources.
+
+**Image 10 – AWS IAM Configuration**
+
+![AWS IAM Configuration](Screenshots/image10.png)
+
+**Image 11 – IAM Security and Access Management**
+
+![IAM Access Management](Screenshots/image11.png)
+
+### Creating an IAM Role for Amazon S3 Access
+
+The following screenshots demonstrate the creation of a new IAM role using the `AmazonS3FullAccess` permission.
+
+The role was intended to allow the EC2 instance to access Fresh Mart's S3 storage. IAM permissions help control access to AWS resources, reducing the risks associated with excessive or unauthorised access.
+
+**Image 12 – Creating an IAM Role**
+
+![Creating an IAM Role](Screenshots/image12.png)
+
+**Image 13 – Assigning AmazonS3FullAccess Permission**
+
+![Amazon S3 Full Access Permission](Screenshots/image13.png)
+
+### Testing Data Transfer to Amazon S3
+
+This screenshot demonstrates a successful data transfer from the EC2 instance to the Amazon S3 bucket using AWS CLI.
+
+This allowed Fresh Mart to explore centralised cloud storage, where data from its 14 branches could be stored and accessed more easily. This approach could reduce reliance on physical storage infrastructure while supporting future scalability.
+
+**Image 14 – Successful AWS CLI Data Transfer to S3**
+
+![AWS CLI Data Transfer](Screenshots/image14.png)
+
+
+
+
+
