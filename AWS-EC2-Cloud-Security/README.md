@@ -183,9 +183,9 @@ The EC2 instance and S3 storage required additional security configurations to h
 
 ### S3 Bucket Encryption (SSE-KMS)
 
-The following screenshots demonstrate the configuration of Server-Side Encryption using AWS Key Management Service (SSE-KMS) for the S3 bucket.
+The following screenshots demonstrate the security configuration of the Amazon S3 bucket using Server-Side Encryption with AWS Key Management Service (SSE-KMS).
 
-This encryption method helps protect stored data by using encryption keys managed through AWS KMS. It also provides additional control over key access and management.
+This encryption method helps protect Fresh Mart's critical business data by encrypting stored information. SSE-KMS also provides additional control over encryption key management and permissions, helping the company manage who can access its encryption keys.
 
 **Image 15 – Configuring S3 Bucket Encryption**
 
